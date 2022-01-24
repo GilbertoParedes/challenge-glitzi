@@ -231,12 +231,12 @@ export default {
 
 <style>
 
-.container[data-v-69bb59a3] {
+.container[data-v-44324f62] {
     padding: 0px;
-    border: solid 0px blue;
+    border: solid 0px !important;
 }
 
-.beforeUpload .icon[data-v-69bb59a3] {
+.beforeUpload .icon[data-v-44324f62] {
     margin: auto;
     border-radius: 62px;
 }
