@@ -243,7 +243,7 @@ export default {
 p.mainMessage {
     display: none;
 }
-.beforeUpload[data-v-69bb59a3] {
+.beforeUpload[data-v-44324f62] {
     text-align: center;
     border-radius: 80px;
     height: 140px;
@@ -257,7 +257,7 @@ p.mainMessage {
     margin-bottom: 18px;
 }
 
-.beforeUpload input[data-v-69bb59a3] {
+.beforeUpload input[data-v-44324f62] {
     width: 80%;
     height: 80%;
     opacity: 0;
@@ -266,7 +266,7 @@ p.mainMessage {
     display: block;
 }
 
-.beforeUpload .icon[data-v-69bb59a3] {
+.beforeUpload .icon[data-v-44324f62] {
     margin: auto;
     border-radius: 62px;
     height: 90px;
@@ -279,7 +279,7 @@ p.mainMessage {
 }
 
 /* image upload */
-.imgsPreview .imageHolder img[data-v-69bb59a3] {
+.imgsPreview .imageHolder img[data-v-44324f62] {
     object-fit: cover;
     width: 100%;
     border-radius: 80px;
