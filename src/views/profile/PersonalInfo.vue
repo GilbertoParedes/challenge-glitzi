@@ -1,11 +1,10 @@
 <template>
 <b-container>
     <b-row >
-        <b-col cols="4">
-            <UploadImages @change="handleImages" :max="1"/>
-          
-      </b-col>
-      <b-col cols="8">
+    <b-col  cols="5" lg="2">
+        <UploadImages @change="handleImages" :max="1"/>
+    </b-col>
+      <b-col  cols="7" lg="10">
         <b-row>
           <b-form-group
               label="Personal Foto (Opcional)"
@@ -266,6 +265,15 @@ p.mainMessage {
     display: block;
 }
 
+.imgsPreview .imageHolder[data-v-44324f62] {
+    width: 140px !important;
+    height: 140px !important;
+}
+
+.plus {
+    display: none;
+}
+
 .beforeUpload .icon[data-v-44324f62] {
     margin: auto;
     border-radius: 62px;
@@ -351,4 +359,8 @@ p.mainMessage {
         margin-bottom: 2em;
         font-size: 20px;
     }
+    /* .btn .b-icon.bi {
+        font-size: -50px;
+    } */
+
 </style>

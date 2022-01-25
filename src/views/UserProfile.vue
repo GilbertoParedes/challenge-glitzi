@@ -2,7 +2,7 @@
 <b-container>
     <b-row>
         <b-col cols="12">
-            <h1 class="main-profile">Completar Perfil</h1>
+            <h1 class="main-profile mb-2">Completar Perfil</h1>
         </b-col>
     </b-row>
     <b-row>
@@ -13,6 +13,7 @@
                 variant="flat-primary"
                 class="main-button"
                 @click="changeCard(true)"
+                :disabled="card_selected === true"
                 >
                 <b-avatar
                 variant="light-primary"
@@ -28,11 +29,19 @@
                 variant="flat-primary"
                 class="main-button"
                 @click="changeCard(false)"
+                :disabled="card_selected === false"
                 >
                 <b-avatar
                 variant="light-primary"
                 square
-                />
+                >
+                <span class="d-flex align-items-center">
+        <feather-icon
+          icon="AtSignIcon"
+          size="18"
+        />
+      </span>
+                </b-avatar>
                 Profesional
             </b-button>
         </b-col>
@@ -110,6 +119,7 @@ export default {
 
 .main-button {
     font-size: 19px !important;
+    padding: 0px !important;
 }
 
 .space {
